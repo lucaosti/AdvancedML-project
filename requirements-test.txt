@@ -1,0 +1,16 @@
+# Lightweight requirements for CI/CD testing (CPU only)
+# Install with: pip install -r requirements-test.txt
+
+# Scientific computing
+numpy>=2.0,<3.0
+
+# Data handling
+opencv-python-headless>=4.8
+Pillow>=12.0
+pyyaml>=6.0
+
+# PyTorch CPU versions - will download from PyTorch CPU index
+# These must be listed at the end with --extra-index-url
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
+torchvision>=0.15

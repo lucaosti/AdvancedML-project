@@ -1,0 +1,72 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+Venv/
+.Venv/
+.ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Python build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Large dataset files (not on GitHub)
+data/
+
+# YOLO model weights (large files)
+# yolo/weights/*.pt
+!yolo/weights/.gitkeep
+yolo_data/
+yolo*.pt
+
+# Trained model checkpoints
+trained_checkpoints/
+trained_checkpoints_rgbd/
+
+#logs
+logs/
